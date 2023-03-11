@@ -4,7 +4,7 @@
 }
 
 body{
-    background: lightgray;
+    background: gray;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -18,27 +18,45 @@ header{
     background: rgb(0, 178, 254);
     height: 100px;
     width: 100%;
-    margin: 0%;
+    margin: 0px;
     text-align: center;
     line-height: 100px;
     color: white;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
 }
-
 .clearfix{
     clear: both;
 }
 
 #content{
     float: left;
-    width: 70%;
+    width: calc(80% - 45px);
     background: lightblue;
+    min-height: 500px;
+    padding: 22.5px;
 }
 
 aside{
     float:left;
-    width: 30%;
+    width: calc(20% - 20px);
     background: lightcyan;
+    min-height: 500px;
+    padding: 10px;
 }
 
+.articulo{
+    color: rgb(0, 13, 133);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0, 13, 133) ;
+    padding-top: 20px;
+}
+
+
+.articulo2{
+    color:rgb(115, 0, 255);
+    border-bottom: 1px solid rgb(0, 13, 133) ;
+    text-align: center;
+}
